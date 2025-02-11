@@ -6,14 +6,13 @@
 
 
 .container{
-    display: grid;    
+    display: grid;  
+    grid-template-columns: 15vw 85vw;  
 }
 
 .dashboard {
-
     font-family: "Roboto";
     color: white;
-    width: 20vw;
     height: 100vh;
     background-color: rgb(0, 131, 238);
 
@@ -25,8 +24,8 @@
 }
 
 .main-content{
-    width: 80vw;
-    height: 100vh;
+    display: grid;
+    grid-template-rows: 20vh 80vh;
 }
 
 .dash {
@@ -38,5 +37,32 @@
 }
 
 .func {
+    display: flex;
+    align-items: center;
     padding-bottom: 20px;
+    gap: 15px;
+}
+
+.dash {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+img{
+    width: 30px;
+    height: auto;
+}
+
+.icondash {
+    width: 50px;
+    height: auto;
+}
+
+.searchbar {
+    background-color: white;
+}
+
+.cardspace {
+    background-color: grey;
 }
