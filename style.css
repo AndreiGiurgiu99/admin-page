@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Roboto";
 }
 
 
@@ -61,6 +62,10 @@ img{
 
 .searchbar {
     background-color: white;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    padding: 5px 60px 20px 60px;
+     
 
 }
 
@@ -71,6 +76,7 @@ img{
     grid-template-columns: 60vw 20vw;
     grid-template-rows: 40vh 30vh;    
     padding: 20px;
+    box-shadow: inset 0px 10px 10px -12px rgba(0,0,0,0.5);
 
 }
 
@@ -160,3 +166,81 @@ img{
     font-weight: bold;
 }
     
+.first-row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 200px;
+}
+
+.bar {
+    background-color: #cedbe7;
+    height: 30px;
+    width: 800px;
+    border-radius: 14px;
+}
+
+.search-area{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    column-gap: 10px;
+}
+
+.profile-area{
+    display: grid;
+    grid-template-columns: 30px 70px 180px;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 20px;
+}
+.profile-icon{
+    width: 60px;
+    height: auto;
+}
+
+.second-row {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.second-col {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.first-col {
+    display: grid;
+    grid-template-columns: 100px 400px;
+    align-items: center;
+    column-gap: 10px;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    justify-content: space-around;
+    background-color: rgb(0, 131, 238);
+    font-family: "Roboto";
+    color:white;
+    font-size: 16px;
+}
+
+.profile {
+    height: 100px;
+    width: auto;
+}
+
+.na {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.sup-name{
+    padding: 5px;
+}
