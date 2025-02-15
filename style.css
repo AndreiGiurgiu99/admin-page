@@ -61,8 +61,102 @@ img{
 
 .searchbar {
     background-color: white;
+
 }
 
 .cardspace {
-    background-color: grey;
+    font-family: "Roboto";
+    background-color:#cedbe7;
+    display: grid;
+    grid-template-columns: 60vw 20vw;
+    grid-template-rows: 40vh 30vh;    
+    padding: 20px;
+
 }
+
+.your-project{
+    grid-row: span 2;
+}
+
+.section-title {
+    padding-bottom: 10px;
+    font-size: 22px;
+}
+
+.cards {
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 20vh 20vh 20vh;
+    row-gap: 25px;
+    justify-items: start;
+
+}
+
+.card{
+
+    width: 450px;
+    height: 180px;
+    background-color: white;
+    border-left: 12px solid orange;
+    border-radius: 8px; 
+    padding:30px 60px 0px 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-icons{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-top: 30px;
+    gap:5px;
+}
+
+.card-icon{
+    padding: 5px;
+}
+
+.announcement-card {
+    display: grid;
+    height: 34vh;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px 60px 0px 60px;
+
+  
+}
+.article-bd {
+    border-bottom: 1px solid #d3d3d3;
+    margin-bottom: 10px;
+    
+}
+.ann-description {
+    font-size: 14px;
+}
+
+.trending-card {
+    display: grid;
+    height: 32vh;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px 60px 0px 30px;
+
+}
+
+.user-logo {
+    width: 50px;
+    height: auto;
+}
+.user-profile{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.adress {
+    font-weight: bold;
+}
+    
